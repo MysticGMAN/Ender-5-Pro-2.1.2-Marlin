@@ -15,4 +15,4 @@
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 
 
-## Marlin 2.1
+## Marlin 2.1.2
