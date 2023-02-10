@@ -11,9 +11,9 @@
     <br />
     <a href="https://fosstodon.org/@marlinfirmware"><img alt="Follow MarlinFirmware on Mastodon" src="https://img.shields.io/mastodon/follow/109450200866020466?domain=https%3A%2F%2Ffosstodon.org&logoColor=%2300B&style=social"></a>
 </p>
-</br>
+<br />
 # My last Succesful build of Marlin 2.1.2 For the BTT-SKR-MINI-E3-V3.0
-</br>
+<br />
 ## Marlin 2.1
 
 Marlin 2.1 continues to support both 32-bit ARM and 8-bit AVR boards while adding support for up to 9 coordinated axes and to up to 8 extruders.
