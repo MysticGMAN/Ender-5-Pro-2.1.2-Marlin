@@ -18,7 +18,9 @@ Additional documentation can be found at the [Marlin Home Page](https://marlinfw
 ## Marlin 2.1.2
 
 Recent changes Include (in order of apperance)
-
+```C
+//#define AUTO_BED_LEVELING_BILINEAR
+```
 ### Config.h
 - `#define NO_MOTION_BEFORE_HOMING` (uncomment) 
 - `//#define AUTO_BED_LEVELING_BILINEAR` (comment) 
