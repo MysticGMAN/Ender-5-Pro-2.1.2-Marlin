@@ -21,7 +21,7 @@ Recent changes Include (in order of apperance)
 
 ### Config.h
 - `#define NO_MOTION_BEFORE_HOMING` (uncomment) 
-<p style="color:green"> - `//#define AUTO_BED_LEVELING_BILINEAR` </p> (comment) 
+<p style="color:green;"> - `//#define AUTO_BED_LEVELING_BILINEAR` </p> (comment) 
 - `#define AUTO_BED_LEVELING_UBL` (uncomment) 
 - `#define LEVELING_NOZZLE_TEMP 80` (was 50)
 - `#define MESH_INSET 30` (was 15)      
