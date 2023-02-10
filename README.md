@@ -29,6 +29,9 @@ Recent changes Include (in order of apperance)
 - `#define BED_TRAMMING_USE_PROBE` (uncomment) 
 - `#define HOMING_FEEDRATE_MM_M { (30*60), (30*60), (6*60) }` (30 was 60)
 - `#define EEPROM_INIT_NOW` (uncomment)
+###### Had to make these changes to avoid build errors (out of order)
+- #1888 `//#define RESTORE_LEVELING_AFTER_G28` (comment)
+- #3220 `#define NUM_M106_FANS 1` (1 was 2)
 
 ### Config_adv.h
 - `#define HOMING_BUMP_DIVISOR { 5, 5, 4 }` (5 was 2)
