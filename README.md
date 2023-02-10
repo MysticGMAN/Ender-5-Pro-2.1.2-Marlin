@@ -17,6 +17,14 @@ Additional documentation can be found at the [Marlin Home Page](https://marlinfw
 
 ## Marlin 2.1.2
 
+<style
+  type="text/css">
+h1 {color:red;}
+
+p {color:blue;}
+</style>
+<p>okay</p>
+
 Recent changes Include (in order of apperance)
 ```C
 //#define AUTO_BED_LEVELING_BILINEAR
