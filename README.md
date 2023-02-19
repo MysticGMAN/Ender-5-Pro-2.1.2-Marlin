@@ -38,6 +38,5 @@ Recent changes Include (in order of apperance)
 ### Config_adv.h
 - `#define HOMING_BUMP_DIVISOR { 5, 5, 4 }` (5 was 2)
 - `#define ASSISTED_TRAMMING` (Uncomment)
-- `#define TRAMMING_POINT_XY { {  30, 30 }, { 200, 30 }, { 200, 200 }, { 30, 200 } }` (30 was 20 & 200 was 180)
 - `#define ASSISTED_TRAMMING_WIZARD` (uncomment)
 - `#define TRAMMING_SCREW_THREAD 40` (uncomment)
