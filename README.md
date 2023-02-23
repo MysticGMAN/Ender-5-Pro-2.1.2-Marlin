@@ -14,24 +14,28 @@
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 
-# Special Notice (Arrêt)
-#### If you are from the Marlin Community
-##### Please use at your own risk
+# Intended Use
 
-I am not an expert at firmware building. Although i may have experience in programming. I can assure you that i make mistakes. Sometimes more than i care to admit
+This Build of Marlin (2.1.2) is only ment to be used for the Big Tree Tech (BTT) SKR MINI E3 V3.0. With the Ender 5 Pro (w/ upgraded lead screw [^1]) & a CR-Touch. Everything else is stock. 
+
+## Special Notice (Arrêt)
+#### If you are from the Marlin Community
+##### Please use at your own risk [^2]
+
+**Use at your own risk.**
 
 ## Marlin 2.1.2
 
-Recent changes Include (in order of apperance)
-This does not include a list of all changes. This is just incase i make a boo boo. 
-Instead of looking back through weeks of version history, this serves as an easy way to see where my boo boo may have taken place.
+Recent changes Include <sub>in order of apperance</sub>.[^3]
+
+<sup> The numbers before the code are there for ease of location during diagnostics </sup>
 
 ### Config.h
 ```C
 1670 #define NO_MOTION_BEFORE_HOMING //(uncomment) 
 1879 //#define AUTO_BED_LEVELING_BILINEAR //(comment) 
 1880 #define AUTO_BED_LEVELING_UBL //(uncomment) 
-1888 //#define RESTORE_LEVELING_AFTER_G28 `//(comment)`
+1888 //#define RESTORE_LEVELING_AFTER_G28 //(comment)
 1896 #define LEVELING_NOZZLE_TEMP 80 //(was 50)
 1991 #define MESH_INSET 30 //(was 15)      
 1992 #define GRID_MAX_POINTS_X 9 //(was 6) 
@@ -43,8 +47,16 @@ Instead of looking back through weeks of version history, this serves as an easy
 
 ### Config_adv.h
 ```C
-- #define HOMING_BUMP_DIVISOR { 5, 5, 4 } (5 was 2)
-- #define ASSISTED_TRAMMING (Uncomment)
-- #define ASSISTED_TRAMMING_WIZARD (uncomment)
-- #define TRAMMING_SCREW_THREAD 40 (uncomment)
+883 #define HOMING_BUMP_DIVISOR { 5, 5, 4 } //(5 was 2)
+1032 #define ASSISTED_TRAMMING //(Uncomment)
+1047 #define ASSISTED_TRAMMING_WIZARD //(uncomment)
+1057 #define TRAMMING_SCREW_THREAD 40 //(uncomment)
 ```
+####
+
+
+[^1]: This lead screw is a 400mm T8 ACME thread single (1) start with a 2mm pitch & lead. It also has a T8 Anti-backlash spring loaded Nut. As well as a royal duck load of cheap WD-40 Whit lithium grease in the z-stepper motor. MLG maneuver right there. 
+
+[^2]: I am not an expert at firmware building. Although i may have experience in programming. I can assure you that i make mistakes. Sometimes more than i care to admit.
+
+[^3]: This does not include a list of all changes. This is just incase i make a boo boo. Instead of looking back through weeks of version history, this serves as an easy way to see where my boo boo may have taken place.
