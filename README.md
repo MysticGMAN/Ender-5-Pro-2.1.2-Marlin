@@ -22,7 +22,6 @@ This Build of Marlin (2.1.2) is only ment to be used for the Big Tree Tech (BTT)
 #### If you are from the Marlin Community
 ##### Please use at your own risk [^2]
 
-**Use at your own risk.**
 
 ## Marlin 2.1.2
 
@@ -37,6 +36,7 @@ Recent changes Include <sub>in order of apperance</sub>.[^3]
 1880 #define AUTO_BED_LEVELING_UBL //(uncomment) 
 1888 //#define RESTORE_LEVELING_AFTER_G28 //(comment)
 1896 #define LEVELING_NOZZLE_TEMP 80 //(was 50)
+1943 //#define G26_MESH_VALIDATION //(comment)
 1991 #define MESH_INSET 30 //(was 15)      
 1992 #define GRID_MAX_POINTS_X 9 //(was 6) 
 2039 //#define BED_TRAMMING_USE_PROBE //(uncomment) 
