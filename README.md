@@ -31,6 +31,9 @@ Recent changes Include <sub>in order of apperance</sub>.[^3]
 
 ### Config.h
 ```C
+1571 #define Z_PROBE_LOW_POINT -1.25 //(was -2)
+1574 #define Z_PROBE_OFFSET_RANGE_MIN -4 //(was -20)
+1604 #define PREHEAT_BEFORE_PROBING //(uncomment)
 1670 #define NO_MOTION_BEFORE_HOMING //(uncomment) 
 1879 //#define AUTO_BED_LEVELING_BILINEAR //(comment) 
 1880 #define AUTO_BED_LEVELING_UBL //(uncomment) 
@@ -39,7 +42,9 @@ Recent changes Include <sub>in order of apperance</sub>.[^3]
 1943 //#define G26_MESH_VALIDATION //(comment)
 1991 #define MESH_INSET 30 //(was 15)      
 1992 #define GRID_MAX_POINTS_X 9 //(was 6) 
-2039 //#define BED_TRAMMING_USE_PROBE //(uncomment) 
+2023 //#define LCD_BED_LEVELING //(comment)
+2032 //#define LCD_BED_TRAMMING //(comment)
+2039 //#define BED_TRAMMING_USE_PROBE //(comment) 
 2104 #define HOMING_FEEDRATE_MM_M { (30*60), (30*60), (6*60) } //(30 was 60)
 2188 #define EEPROM_INIT_NOW //(uncomment)
 3220 #define NUM_M106_FANS 1 //(1 was 2)
