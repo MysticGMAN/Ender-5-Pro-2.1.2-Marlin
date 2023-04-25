@@ -41,6 +41,7 @@ Recent changes Include <sub>in order of apperance</sub>.[^3]
 1879 //#define AUTO_BED_LEVELING_BILINEAR //(comment) 
 1880 #define AUTO_BED_LEVELING_UBL //(uncomment) 
 1888 //#define RESTORE_LEVELING_AFTER_G28 //(comment)
+1894 //#define PREHEAT_BEFORE_LEVELING //(comment)
 1896 #define LEVELING_NOZZLE_TEMP 80 //(was 50)
 1943 //#define G26_MESH_VALIDATION //(comment)
 1991 #define MESH_INSET 10 //(was 30)      
