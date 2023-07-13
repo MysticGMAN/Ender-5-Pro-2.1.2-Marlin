@@ -33,7 +33,7 @@ Recent changes Include <sub>in order of apperance</sub>.[^3]
 ```C
 1493 #define PROBING_MARGIN 25 //(was 10)
 1549 //#define MULTIPLE_PROBING 1 //(comment)
-1571 #define Z_PROBE_LOW_POINT -2 //(was -1.25)
+1571 #define Z_PROBE_LOW_POINT -3 //(was -1.25)
 1574 #define Z_PROBE_OFFSET_RANGE_MIN -20 //(was -4)
 1604 #define PREHEAT_BEFORE_PROBING //(uncomment)
 1606 #define PROBING_NOZZLE_TEMP 50 //(was 90) 
