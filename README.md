@@ -16,7 +16,7 @@ Additional documentation can be found at the [Marlin Home Page](https://marlinfw
 
 # Intended Use
 
-This Build of Marlin (2.1.2) is only ment to be used for the Big Tree Tech (BTT) SKR MINI E3 V3.0. With the Ender 5 Pro (w/ upgraded lead screw [^1]) & a CR-Touch. Everything else is stock. 
+This Build of Marlin (2.1.2) is only ment to be used for the Big Tree Tech (BTT) SKR MINI E3 V3.0. With the Ender 5 Pro (w/ **upgradeds** [^1]) & a CR-Touch. Everything else is stock. 
 
 ## Special Notice (Arrêt)
 #### If you are from the Marlin Community
@@ -24,14 +24,18 @@ This Build of Marlin (2.1.2) is only ment to be used for the Big Tree Tech (BTT)
 
 
 ## Marlin 2.1.2
-
+### README Line changes quick lookup table NOT UPDATED as of 2023-11-22 
 Recent changes Include <sub>in order of apperance</sub>.[^3]
 
-<sup> The numbers before the code are there for ease of location during diagnostics </sup>
+<sup> The numbers before the code are there for ease of location during diagnostics. AKA Line numbers... WOW. </sup>
 
 ### Config.h
 ```C
-1493 #define PROBING_MARGIN 25 //(was 10)
+83 #define SHOW_CUSTOM_BOOTSCREEN
+86 //#define CUSTOM_STATUS_SCREEN_IMAGE
+1174 { 80, 80, 1488.4, 109}
+1489 { -44.0, -06.0, 0.00}
+1493 #define PROBING_MARGIN 20 //(was 10)
 1549 //#define MULTIPLE_PROBING 1 //(comment)
 1571 #define Z_PROBE_LOW_POINT -3 //(was -1.25)
 1574 #define Z_PROBE_OFFSET_RANGE_MIN -20 //(was -4)
@@ -64,7 +68,9 @@ Recent changes Include <sub>in order of apperance</sub>.[^3]
 ####
 
 
-[^1]: This lead screw is a 400mm T8 ACME thread single (1) start with a 2mm pitch & lead. It also has a T8 Anti-backlash spring loaded Nut. As well as a royal duck load of cheap WD-40 Whit lithium grease in the z-stepper motor. MLG maneuver right there. 
+[^1]: * Upgrades: 
+      1. Lead screw Upgrade: A 400mm T8 ACME thread single (1) start with a 2mm pitch & lead. It also has a T8 Anti-backlash spring loaded Nut. As well as a royal duck load of cheap WD-40 White lithium grease in the z-stepper motor. MLG maneuver right there.
+      2. Hotend Upgrade: Creality Spider V3 Pro. Max Temp of 300&deg;C. Supports 300mm/s printing speeds <sub>Doubt the Ender 5-pro will do this before shaking itself to pieces.</sub> It does other things (apparently), which can be seen [here](https://store.creality.com/ca/products/spider-v3-high-temperature-and-high-flow-hotend-pro?cfb=7a3698b9-6819-4331-a55e-d679769ea949&ifb=7a3698b9-6819-4331-a55e-d679769ea949&scm=search.v25&score=7.21712972628878&ssp=&spm=..search.search_1.1) on the store page.    
 
 [^2]: I am not an expert at firmware building. Although i may have experience in programming. I can assure you that i make mistakes. Sometimes more than i care to admit.
 
