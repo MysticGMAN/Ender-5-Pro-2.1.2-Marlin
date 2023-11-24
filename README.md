@@ -24,7 +24,7 @@ This Build of Marlin (2.1.2) is only ment to be used for the Big Tree Tech (BTT)
 
 
 ## Marlin 2.1.2
-### README Line changes quick lookup table NOT UPDATED as of 2023-11-22 
+### README Line changes quick lookup table NOT UPDATED as of 2023-11-22
 Recent changes Include <sub>in order of apperance</sub>.[^3]
 
 <sup> The numbers before the code are there for ease of location during diagnostics. AKA Line numbers... WOW. </sup>
